@@ -6,7 +6,9 @@ This is a simple product card component
 
 ```
 import  {ProductCard, ProductImage, ProductTitle, ProductButtons }  from  'axvv-product-card';
+```
 
+```
 <ProductCard
   product={product}
   initialValues={{
@@ -25,4 +27,3 @@ import  {ProductCard, ProductImage, ProductTitle, ProductButtons }  from  'axvv-
   }
 </ProductCard>
 ```
-````

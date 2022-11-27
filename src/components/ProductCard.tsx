@@ -28,7 +28,10 @@ export const ProductCard = ({children, product, className, style, onChange, valu
       increaseBy,
       isMaxCountReached
     }}>
-      <div className={`${styles.productCard} ${className}`} style={style}>
+      <div
+        className={`${styles.productCard} ${className}`}
+        style={style}
+      >
         {children && children({
           count: counter,
           isMaxCountReached,
