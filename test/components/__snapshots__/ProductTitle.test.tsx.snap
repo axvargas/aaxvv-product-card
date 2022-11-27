@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle Must render with the name of the product 1`] = `
+<div
+  className="productCard undefined"
+>
+  <span
+    className="productDescription undefined"
+  >
+    Coffee Mug - no image
+  </span>
+</div>
+`;
+
+exports[`ProductTitle Must render with the personalized title 1`] = `
+<span
+  className="productDescription undefined"
+>
+  My Custom Title
+</span>
+`;
