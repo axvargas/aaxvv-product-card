@@ -1,2 +1,4 @@
-export { Product } from '../dist/interfaces/interfaces';
 export * from './components';
+
+// interfaces
+export {Product} from './interfaces/interfaces';
